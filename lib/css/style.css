@@ -1,4 +1,5 @@
 newsfeed {
+  font-family: 'Roboto', sans-serif;
   height: 450px;
   width: 320px;
   border: solid 1px #c3c3c3;
@@ -42,7 +43,7 @@ a {
 }
 
 .news-title::before {
-  content: ">  ";
+  content: "\00bb";
 }
 
 #showfeed {
